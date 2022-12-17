@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARBOL DE NAVIDAD</title>
+    <style>
+        body {
+            background: black;
+            display: grid;
+            justify-content: center;
+            text-align: center;
+        }
+
+        h1 {
+            color: greenyellow;
+        }
+
+        p {
+            color: teal;
+        }
+
+        .estrella {
+            font-size: 100px;
+            animation: colores 1s infinite;
+        }
+
+        #arbol {
+            color: green;
+            transition: all 1.5s;
+            font-size: 25px;
+        }
+
+        .rojo {
+            color: red;
+            transition: all 1.5s;
+            font-size: 25px;
+        }
+
+        @keyframes colores {
+            0% {
+                color: red;
+            }
+
+            33% {
+                color: green;
+            }
+
+            66% {
+                color: blue;
+            }
+
+            100% {
+                color: yellow;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="estrella">*</div>
+    <div id="arbol"></div>
+    <h1>FELIZ NAVIDAD!! Y PRÓSPERO AÑO NUEVO 2022</h1>
+    <p>A toda la Escuela Politécnica Nacional</p>
+    <script src="arbolDeNavidad.js"></script>
+
+</body>
+
+</html>
