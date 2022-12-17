@@ -1,3 +1,3 @@
-# Compiladores-
+# Compiladores
 Recursos Compiladores
 Recursos Lenguajes
